@@ -1,94 +1,91 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Weather app</title>
 </head>
 <body>
 
-  <div class="flex justify-center">
-      <img src="assests/Group 3 (1).png" alt="header">
-  </div>
+  <section id="purple-background" class="absolute inset-0 w-full">
+    <div class="flex h-screen bg-gradient-to-b from-violet-500 to-fuchsia-200"></div>
+  </section>
 
-  <div class="flex justify-center mx-10 space-x-10 mt-20">
-    <div class="flex flex-col">
-      <img class="mt-5 mb-10 w-fit" src="assests/Kvaliteetsed elektritööd.png" alt="Kvaliteetsed elektritööd">
-      <img class="w-fit" src="assests/Meie asjatundlikutele elektrikutele ei käi ükski ülesanne üle jõu. Meie laialdaste kogemustega ja täielikult kvalifitseeritud elektrikud on Teie käsutuses Tallinna ja Tartu piirkonnas..png" alt="text">
-      <img class="mt-24 w-fit" src="assests/Teeme teile tasuta hinnapakkumise.png" alt="tasuta hinnapakkumine">
-      <img src="assests/Frame 28.png" alt="form">
-      <img src="assests/Frame 27.png" alt="Saada">
-    </div>
-    <div class="flex flex-col">
-      <img src="assests/Rectangle 12 (1).png" alt="picture">
-      <img class="mt-10 mb-5 w-fit" src="assests/Aitame teid kõigi elektritööde läbiviimisega.png" alt="Aitame teid">
-      <img class="mt-5 w-fit" src="assests/Me ei hooli, kas tööde objektiks on kontor, ärihoone, rendipind või teie isiklik kodu, sest pädeva ja kvalifitseeritud elektriku palkamine on tähtis igale kinnisvaraobjekti üürileandjale, ettevõttele ja koduomaniku.png" alt="Kohad">
-    </div>
-  </div>
+  <main class="flex flex-row justify-evenly">
 
-  <div class="flex flex-col">
-    <!-- <img src="assests/Rectangle 18 (1).png" alt="orange triangles"> -->
-    <div class="flex justify-center mt-40 mb-10">
-      <img src="assests/Meie teenused.png" alt="Teenused">
-    </div>
-    <div class="flex flex-row justify-center">
-      <div>
-        <img src="assests/Group 7.png" alt="üürileandjale">
+    <section id="Mobil-1" class="relative w-96 mt-32">
+
+      <div id="StatusBar" class="flex items-center justify-between outline">
+        <div id="Left-side" class="">
+          <div id="time" class="text-[#FFFFFF] pl-2">9:41</div>
+        </div>
+        <div id="Notch">
+          <!-- peax img tulema -->
+        </div>
+        <div id="Right-side" class="flex flex-row pr-2">
+          <img class="pr-1" src="assets/Mobile Signal.png" alt="signal">
+          <img class="pr-1" src="assets/Wifi.png" alt="wifi">
+          <img src="assets/Battery.png" alt="battery">
+        </div>
       </div>
-      <div>
-        <img src="assests/Group 8.png" alt="ettevõtjale">
+
+      <div id="Weather"></div>
+      <div id="Model"></div>
+      <div id="Hour"></div>
+      <div id="Tapbar"></div>
+      <!-- bg shadow
+      bg house
+      bg -->
+    </section>
+
+    <section id="Mobil-2" class="relative w-96 mt-10">
+
+      <div id="StatusBar" class="flex items-center justify-between outline">
+        <div id="Left-side">
+          <div id="time" class="text-[#FFFFFF] pl-2">9:41</div>
+        </div>
+        <div id="Notch">
+          <!-- peax img tulema -->
+        </div>
+        <div id="Right-side" class="flex flex-row pr-2">
+          <img class="pr-1" src="assets/Mobile Signal.png" alt="signal">
+          <img class="pr-1" src="assets/Wifi.png" alt="wifi">
+          <img src="assets/Battery.png" alt="battery">
+        </div>
       </div>
-      <div>
-        <img src="assests/Group 9.png" alt="koduomanikule">
+      
+      <div></div>
+      <div></div>
+      <!-- ... -->
+      
+    </section>
+
+    <section id="Mobil-3" class="relative w-96 mt-32">
+
+      <div id="StatusBar" class="flex items-center justify-between outline">
+        <div id="Left-side">
+          <div id="time" class="text-[#FFFFFF] pl-2">9:41</div>
+        </div>
+        <div id="Notch">
+          <!-- peax img tulema -->
+        </div>
+        <div id="Right-side" class="flex flex-row pr-2">
+          <img class="pr-1" src="assets/Mobile Signal.png" alt="signal">
+          <img class="pr-1" src="assets/Wifi.png" alt="wifi">
+          <img src="assets/Battery.png" alt="battery">
+        </div>
       </div>
-    </div>
-    <div>
-      <div class="flex justify-center">
-        <img src="assests/Group 10 (1).png" alt="Ei leidnud sobivat">
-      </div>
-    </div>
-  </div>
+      
+      <div></div>
+      <div></div>
+      <!-- ... -->
+      
+    </section>
 
-<div class="flex flex-row mt-32 justify-center space-x-20">
-  <div>
-    <img src="assests/Rectangle 19 (2).png" alt="electrician">
-  </div>
-  <div>
-    <img src="assests/Group 11.png" alt="text">
-  </div>
-</div>
+  </main>
 
-<div class="mt-32 flex justify-center">
-  <!-- <img src="assests/Group 25.png" alt="">
-  <img src="assests/Group 26 (3).png" alt=""> -->
-  <div>
-    <img src="assests/Group 16 (1).png" alt="Lubadus">
-  </div>
-</div>
-
-<div class="mt-32 flex justify-center">
-  <div>
-    <img src="assests/Frame 20.png" alt="Võta ühendust">
-  </div>
-</div>
-
-<div class="mt-24 flex justify-center">
-  <div>
-    <img src="assests/Group 24 (1).png" alt="Miks vajate?">
-  </div>
-</div>
-
-<div class="mt-24 flex justify-center">
-  <div>
-    <img src="assests/Group 19 (2).png" alt="Kõik tehniline meie hooleks">
-  </div>
-</div>
-
-<div class="mt-24 flex justify-center">
-  <div>
-    <img src="assests/Group 23 (2).png" alt="footer">
-  </div>
-</div>
 
 </body>
 </html>
